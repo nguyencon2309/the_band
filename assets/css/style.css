@@ -217,6 +217,7 @@ li a{
 #content .member-item{
     float: left;
     width: calc(100% / 3);
+    text-align: center !important;
 }
 
 #content .member-img{
