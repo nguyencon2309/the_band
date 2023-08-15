@@ -137,12 +137,14 @@ li a{
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background:url(https://www.w3schools.com/w3images/chicago.jpg) top center / cover no-repeat; 
+    /* background:url(https://www.w3schools.com/w3images/chicago.jpg) top center / cover no-repeat;  */
     
 }
-
+#slider >img{
+    width: 100%;
+}
 #slider .text-content{
-    
+    /* display:none; */
     position: absolute;
     color: #fff;
     bottom:46px;
@@ -585,4 +587,41 @@ li a{
 }
 #footer i:hover{
     opacity: 0.6;
+}
+
+
+
+/* 
+slidershow */
+
+.slidershow{
+    position: relative;
+}
+.text-content{
+    display:none;
+    position: relative;
+}
+.img_slider {
+    width: 100%;
+    
+}
+.content_slider{
+    /* display:none; */
+    position: absolute;
+    color: #fff;
+    bottom:46px;
+    right: 0;
+    left:0;
+    text-align: center;
+}
+
+.content_slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.content_slider .text-des{
+    font-size: 15px;
+    margin-top: 25px;
+    
 }
